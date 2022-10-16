@@ -1,10 +1,13 @@
 
+/* the whole body where the pic and the paragraph are located  */ 
+
 body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
 	background-color :#ABABAB;
-	forefround-color: #000000;
-	}
+}
+
+/* The Top of the page */ 
 
 header {
 	height: 140px;
@@ -15,39 +18,36 @@ header {
 }
 
 
+/* where it said John Sian */
+
 header h1{
-	font-family: 'Montserrat', serif;
-	background-color:#006600;
-	foreground-color:#FFFFFF;
-	margin: 0px;
-	font-size: 42px;
-	text-align: center;
+	background-color:#1FFF1F;
+	foreground-color:#000000;
+	margin: 0px;	
 }
 
 
+/* where it said student */
+
 header h2 {
-	font-family: 'Montserrat', serif;
-	color: red;
 	foreground-color:#E0E0E0;
 	background-color:#121212;
 	margin: 0px;
-	font-size: 18px;
-	text-align: center;
 }
 
-footer {
-	background-color: green;
+/* where it said Hi I'm John Sian */
+
+header h3{ 
+	foreground-color:#00B300;
+	background-color:#030303;
+	margin: 0px;
 }
 
-section {
-	padding: 0 25%;
-  margin: 80px 0;
-}
 
+/* Just showing the text for all the header */
 
 h1, h2, h3 {
   font-family: 'Montserrat Alternates', sans-serif;
-	color:#545454;
   text-align: center;
   font-weight: 500;
 }
@@ -69,8 +69,18 @@ a:active { color: #403933; }
 a:hover {
 	text-decoration: underline;	
 }
+	
+	/* underneath of the pic to all the way before footer */
+
+section {
+	padding: 0 25%;
+  margin: 80px 0;
+}
+
+	
 
 
+	/* the bottom part of the page */
 footer p {
 	background-color:#003300;
 	foreground-color:#FFFFFF
@@ -80,8 +90,12 @@ footer p {
 }
 
 
-
+/* the very top of the page*/
+	
 .border-top {
+	background-color: #00C700;
+	foreground-color: #000000;
+	
   padding-top: 80px;
   border-top: 2px solid #f4ede7;
 }
