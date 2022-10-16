@@ -15,7 +15,8 @@ header {
 	height: 140px;
 	background-color:#00C700;
 	foreground-color:#00000;
-	font-size : 28px;
+	font-size : 12px;
+	text-margin: right;
 	
 }
 
@@ -26,14 +27,15 @@ header h1{
 	background-color:#1FFF1F;
 	foreground-color:#000000;
 	margin: 0px;	
+	
 }
 
 
 /* where it said student */
 
 header h2 {
-	foreground-color:#E0E0E0;
-	background-color:#000000;
+	foreground-color:#FFFFFF;
+	background-color:#4F4F4F;
 	margin: 0px;
 }
 
@@ -86,9 +88,10 @@ section {
 footer p {
 	background-color:#003300;
 	foreground-color:#FFFFFF
-	text-align: center;
-  padding: 30px;
-  margin: 0;
+	text-align: left;
+        padding: 30px;
+         margin: 0;
+        font-size : 12px;
 }
 
 
