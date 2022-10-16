@@ -5,14 +5,16 @@ body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
 	background-color :#ABABAB;
+	text-align: center;
 }
+
 
 /* The Top of the page */ 
 
 header {
 	height: 140px;
-	background-color:#002E00;
-	foreground-color:#FFFFFF;
+	background-color:#00C700;
+	foreground-color:#00000;
 	font-size : 28px;
 	
 }
@@ -31,7 +33,7 @@ header h1{
 
 header h2 {
 	foreground-color:#E0E0E0;
-	background-color:#121212;
+	background-color:#000000;
 	margin: 0px;
 }
 
