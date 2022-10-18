@@ -14,9 +14,8 @@ body {
 header {
 	height: 140px;
 	background-color:#00C700;
-	foreground-color:#00000;
 	font-size : 12px;
-	text-margin: right;
+	margin: 0px;
 	
 }
 
@@ -34,15 +33,13 @@ header h1{
 /* where it said student */
 
 header h2 {
-	foreground-color:#FFFFFF;
-	background-color:#4F4F4F;
+	background-color:#FFFFFF;
 	margin: 0px;
 }
 
 /* where it said Hi I'm John Sian */
 
 header h3{ 
-	foreground-color:#00B300;
 	background-color:#030303;
 	margin: 0px;
 }
@@ -66,7 +63,9 @@ p, li {
  margin-bottom: 0;
 }
 {
-a:link { color: #38786a; }
+a:link { 
+	background-color: #FFFFFF;
+}
 a:visited { color: #38786a; }
 a:hover { color: #403933; }
 a:active { color: #403933; }
@@ -87,7 +86,6 @@ section {
 	/* the bottom part of the page */
 footer p {
 	background-color:#003300;
-	foreground-color:#FFFFFF
 	text-align: left;
         padding: 30px;
          margin: 0;
@@ -98,9 +96,7 @@ footer p {
 /* the very top of the page*/
 	
 .border-top {
-	background-color: #00C700;
-	foreground-color: #000000;
-	
+	background-color: #00C700;	
   padding-top: 80px;
-  border-top: 2px solid #f4ede7;
+  border-top: 2px solid #f4ede70;
 }
