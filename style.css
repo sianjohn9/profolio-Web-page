@@ -24,7 +24,6 @@ header {
 
 header h1{
 	background-color:#1FFF1F;
-	foreground-color:#000000;
 	margin: 0px;	
 	
 }
@@ -92,11 +91,5 @@ footer p {
         font-size : 12px;
 }
 
-
-/* the very top of the page*/
 	
-.border-top {
-	background-color: #00C700;	
-  padding-top: 80px;
-  border-top: 2px solid #f4ede70;
-}
+
